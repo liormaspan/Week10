@@ -1,0 +1,44 @@
+body{
+    background-image: url("https://raw.githubusercontent.com/devtlv/studentsGitHub/master/JS/Week%204/Day5/Mini%20Projects/Mini%20Project%201%20(Robots)/circuit-pattern.png");
+    background-color: blueviolet;
+}
+#contain{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    width: 100px;
+    height: 20px;
+    gap: 15px;
+    margin-left: 30vh;
+    
+}
+
+.name{
+    color: rgb(82, 82, 255);
+    padding-left: 5px;
+
+}
+.card{
+    justify-content: center;border-radius: 10px;
+    width: 350px;
+    background-color: lightblue;   
+    background-image: url("https://raw.githubusercontent.com/devtlv/studentsGitHub/master/JS/Week%204/Day5/Mini%20Projects/Mini%20Project%201%20(Robots)/card-pattern.png");
+}
+
+.image{
+    border-radius: 150px;
+    background-color: rgb(124, 154, 164);
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+.mail{
+    font-size: 20px;
+    padding-left: 4px;
+}
+
+#nav{
+    display: flex;
+    font-family: 'SEGA LOGO FONT', sans-serif;
+    font-size: 50px;
+    background-color: rgb(167, 255, 80);
+}
